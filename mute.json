@@ -10,6 +10,17 @@
           "misskey.io"
         ]
       }
+    },
+    {
+      "match": "include",
+      "type": "literal",
+      "for": "body",
+      "value": "金ビキニ",
+      "from": {
+        "any": [
+          "misskey.io"
+        ]
+      }
     }
   ]
 }
