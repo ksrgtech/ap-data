@@ -1,0 +1,15 @@
+{
+  "query": [
+    {
+      "match": "include",
+      "type": "literal",
+      "for": "body",
+      "value": "与謝野明子",
+      "from": {
+        "any": [
+          "misskey.io"
+        ]
+      }
+    }
+  ]
+}
